@@ -41,11 +41,7 @@ Key Findings
 - Students hesitate to seek help even when mentally struggling  
 - Clustering effectively identifies high-risk groups for support  
 
-Final Deliverables
-- ✔ Jupyter Notebook (.ipynb)
-- ✔ Complete Project Report (PDF)
-- ✔ PPT Presentation Slides
-- ✔ Visual Graphs & Insights
+
 
 ---
 
