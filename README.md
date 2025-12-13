@@ -42,7 +42,22 @@ Key Findings
 - Clustering effectively identifies high-risk groups for support  
 
 
-
+MindCare-AI-Frontend-Backend/
+│
+├── backend/
+│ ├── app.py
+│ ├── stress_model.pkl
+│ ├── help_model.pkl
+│ ├── kmeans.pkl
+│ ├── scaler.pkl
+│
+├── frontend/
+│ ├── index.html
+│ ├── script.js
+│ ├── style.css
+│
+├── dataset/
+│ └── mental_health_survey.csv
 ---
 
 **Developed by: Mannat Kumar**
