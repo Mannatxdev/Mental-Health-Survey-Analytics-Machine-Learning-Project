@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MindCare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 MindCare AI</h1>
+
+<form id="surveyForm">
+
+  <select id="age" required>
+    <option value="">Age Group</option>
+    <option value="17-18">17-18</option>
+    <option value="19-20">19-20</option>
+    <option value="21-22">21-22</option>
+  </select>
+
+  <select id="gender" required>
+    <option value="">Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select>
+
+  <select id="sleep" required>
+    <option value="">Sleep Hours</option>
+    <option value="Less than 6 hours">Less than 6 hours</option>
+    <option value="6-8 hours">6-8 hours</option>
+    <option value="More than 8 hours">More than 8 hours</option>
+  </select>
+
+  <select id="screen" required>
+    <option value="">Screen Time</option>
+    <option value="Less than 4 hours">Less than 4 hours</option>
+    <option value="4-6 hours">4-6 hours</option>
+    <option value="More than 6 hours">More than 6 hours</option>
+  </select>
+
+  <select id="free" required>
+    <option value="">Free Time Activity</option>
+    <option value="Mobile">Mobile</option>
+    <option value="Reading">Reading</option>
+    <option value="Sports">Sports</option>
+    <option value="Music">Music</option>
+  </select>
+
+  <select id="exercise" required>
+    <option value="">Exercise Frequency</option>
+    <option value="Never">Never</option>
+    <option value="Rarely">Rarely</option>
+    <option value="Sometimes">Sometimes</option>
+    <option value="Often">Often</option>
+  </select>
+
+  <select id="anxiety" required>
+    <option value="">Anxiety Frequency</option>
+    <option value="Never">Never</option>
+    <option value="Rarely">Rarely</option>
+    <option value="Sometimes">Sometimes</option>
+    <option value="Often">Often</option>
+    <option value="Always">Always</option>
+  </select>
+
+  <select id="emotion" required>
+    <option value="">Current Emotional State</option>
+    <option value="Happy">Happy</option>
+    <option value="Neutral">Neutral</option>
+    <option value="Stressed">Stressed</option>
+    <option value="Sad">Sad</option>
+  </select>
+
+  <button type="submit">Predict</button>
+</form>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
